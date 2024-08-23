@@ -5,7 +5,7 @@ export type CabecalhoProps = {
     avisoProps: (Function);
     children: React.ReactNode;
 }
-export type Cabecalho2Props = {
+export interface Cabecalho2Props {
     statusProps: "loading" | "deployed" | "xuxu";
     avisoProps: (Function);
 }
